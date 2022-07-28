@@ -535,7 +535,7 @@ footer{
     .grid_layout_index{
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 100px 45px 1300px 310px;
+        grid-template-rows: 100px 45px 1420px 310px;
         grid-template-areas: "header"
                              "nav"
                              "main"
@@ -558,7 +558,7 @@ footer{
         
     } 
     .slider2_index{
-        height: 650px;
+        height: 800px;
         
     }
     .slider2_recommended_1{
@@ -568,11 +568,11 @@ footer{
         height: 300px;
     }
     .slider2_recommended_1 div{
-        height: 250px;
+        height: 270px;
         width: 40%;
     }
     .slider2_recommended_2 div{
-        height: 250px;
+        height: 270px;
         width: 40%;
     }
     
@@ -589,6 +589,9 @@ footer{
    
     .slider2_image3_index{
         display: none;
+    }
+    .slider2_image1_index button{
+        margin:0px;   
     }
    
     .slider2_image6_index{
