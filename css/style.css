@@ -487,6 +487,16 @@ footer{
     .slider1_index{
         height: 300px;
     }   
+    .grid_layout_index{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 100px 45px 1800px 310px;
+        grid-template-areas: "header"
+                             "nav"
+                             "main"
+                             "footer";
+                                
+    }
 
     .gallery_index{
         height: 650px;
@@ -503,20 +513,34 @@ footer{
         
     } 
     .slider2_index{
-        height: 650px;
+        height: 850px;
         
     }
     .slider2_recommended_1 div{
-        height: 250px;
+        height: 350px;
+        width: 40%;
     }
     .slider2_recommended_2 div{
-        height: 250px;
+        height: 350px;
+        width: 40%;
     }
     
     .slider2_index img{
-        height: 70%;
+        height: 100%;
     }
     
+    .slider2_button_left{
+        display: none;
+    }
+    .slider2_button_rigth{
+        display: none;
+    }
+    .slider2_image3_index{
+        display: none;
+    }
+    .slider2_image6_index{
+        display: none;
+    }
 
 }
 
